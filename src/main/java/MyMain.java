@@ -5,6 +5,11 @@ public class MyMain {
         Scanner scan = new Scanner(System.in);
 
         // Add some code here!
+        System.out.println("Hi! What's your name?");
+        String name = scan.next();
+        System.out.println("What's your favorite snack?");
+        int num = scan.nextInt();
+
 
         scan.close();
     }
