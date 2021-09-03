@@ -8,9 +8,9 @@ public class MyMain {
         System.out.println("Hi! What's your name?");
         String name = scan.next();
         System.out.println("What's your favorite snack?");
-        int num = scan.nextInt();
+        int snack = scan.nextInt();
 
-
+        System.out.println("Hello " + name + ", " + snack + "is really tasty!");
         scan.close();
     }
 }
